@@ -3,7 +3,7 @@ method_decorator
 
 This Python decorator knows the class the decorated method is bound to.
 
-It is unusual for Python, because, when the decorator is applied to just-defined method, the class does not exist yet. 
+It is unusual for Python, because, when the decorator is applied to just-defined method, the class does not exist yet.  
 And once this class is not known in advance, it is almost impossible to get this knowledge, while desired.  
 I needed this when I was implementing RPC of class-methods (and other types of functions) over AMQP.  
 It is also needed for some other people, according to [this Stack Overflow question](http://stackoverflow.com/questions/306130/python-decorator-makes-function-forget-that-it-belongs-to-a-class/).  
